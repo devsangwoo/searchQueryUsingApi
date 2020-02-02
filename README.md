@@ -1,2 +1,0 @@
-# searchQueryUsingApi
-Created with CodeSandbox
