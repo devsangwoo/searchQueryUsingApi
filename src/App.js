@@ -14,12 +14,14 @@ const App = () => {
       //쿼리가 완료가된게아니라면
       if (!completed) setData(result.data);
     }
+
     get();
 
     return () => {
       completed = true;
     };
   }, [query]);
+  //쿼리가 업데이트될때마다 감시해줌
 
   return (
     <>
